@@ -1,0 +1,36 @@
+<div class="card">
+  <p-table [value]="products" [tableStyle]="{ 'min-width': '60rem' }">
+    <ng-template #caption>
+      <div class="flex items-center justify-between">
+        <span class="text-xl font-bold">Products</span>
+        <a routerLink="/products/create">
+          <p-button icon="pi pi-plus" rounded raised />
+        </a>
+      </div>
+    </ng-template>
+    <ng-template #header>
+      <tr>
+        <th>Name</th>
+        <th>Image</th>
+        <th>Price</th>
+        <th>Reviews</th>
+        <th>Status</th>
+      </tr>
+    </ng-template>
+    <ng-template #body let-product>
+      <tr>
+        <td>{{ product.name }}</td>
+        <td>
+          <img [src]="$url + '/assets/' + product.image" [alt]="product.name" class="w-24 rounded" />
+        </td>
+        <td>{{ product.price | vndCurrency }}</td>
+        <td><p-rating [(ngModel)]="product.rating" [readonly]="true" /></td>
+        <td>
+          <p-tag [value]="product.inventoryStatus | inventoryStatus"
+            [severity]="getSeverity(product.inventoryStatus)" />
+        </td>
+      </tr>
+    </ng-template>
+    <ng-template #footer> In total there are {{ products ? products.length : 0 }} products. </ng-template>
+  </p-table>
+</div>

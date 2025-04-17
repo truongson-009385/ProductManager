@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\NET\\ProductManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC34112D-7F34-4797-815B-2059FB352033}|ProductManager.API\\ProductManager.API.csproj|e:\\net\\productmanager\\productmanager.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC34112D-7F34-4797-815B-2059FB352033}|ProductManager.API\\ProductManager.API.csproj|solutionrelative:productmanager.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC34112D-7F34-4797-815B-2059FB352033}|ProductManager.API\\ProductManager.API.csproj|e:\\net\\productmanager\\productmanager.api\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC34112D-7F34-4797-815B-2059FB352033}|ProductManager.API\\ProductManager.API.csproj|solutionrelative:productmanager.api\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB57B4FE-0AE9-45C5-81AA-194DDF314D75}|ProductManager.Application\\ProductManager.Application.csproj|e:\\net\\productmanager\\productmanager.application\\services\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB57B4FE-0AE9-45C5-81AA-194DDF314D75}|ProductManager.Application\\ProductManager.Application.csproj|solutionrelative:productmanager.application\\services\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC34112D-7F34-4797-815B-2059FB352033}|ProductManager.API\\ProductManager.API.csproj|e:\\net\\productmanager\\productmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC34112D-7F34-4797-815B-2059FB352033}|ProductManager.API\\ProductManager.API.csproj|solutionrelative:productmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB57B4FE-0AE9-45C5-81AA-194DDF314D75}|ProductManager.Application\\ProductManager.Application.csproj|e:\\net\\productmanager\\productmanager.application\\dtos\\products\\createproductrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB57B4FE-0AE9-45C5-81AA-194DDF314D75}|ProductManager.Application\\ProductManager.Application.csproj|solutionrelative:productmanager.application\\dtos\\products\\createproductrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB57B4FE-0AE9-45C5-81AA-194DDF314D75}|ProductManager.Application\\ProductManager.Application.csproj|e:\\net\\productmanager\\productmanager.application\\interfaces\\ifileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB57B4FE-0AE9-45C5-81AA-194DDF314D75}|ProductManager.Application\\ProductManager.Application.csproj|solutionrelative:productmanager.application\\interfaces\\ifileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "E:\\NET\\ProductManager\\ProductManager.API\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "ProductManager.API\\Controllers\\UploadController.cs",
+              "ToolTip": "E:\\NET\\ProductManager\\ProductManager.API\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "ProductManager.API\\Controllers\\UploadController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T02:03:36.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileUploadService.cs",
+              "DocumentMoniker": "E:\\NET\\ProductManager\\ProductManager.Application\\Services\\FileUploadService.cs",
+              "RelativeDocumentMoniker": "ProductManager.Application\\Services\\FileUploadService.cs",
+              "ToolTip": "E:\\NET\\ProductManager\\ProductManager.Application\\Services\\FileUploadService.cs",
+              "RelativeToolTip": "ProductManager.Application\\Services\\FileUploadService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T01:59:37.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFileUploadService.cs",
+              "DocumentMoniker": "E:\\NET\\ProductManager\\ProductManager.Application\\Interfaces\\IFileUploadService.cs",
+              "RelativeDocumentMoniker": "ProductManager.Application\\Interfaces\\IFileUploadService.cs",
+              "ToolTip": "E:\\NET\\ProductManager\\ProductManager.Application\\Interfaces\\IFileUploadService.cs",
+              "RelativeToolTip": "ProductManager.Application\\Interfaces\\IFileUploadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T01:55:47.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateProductRequestDto.cs",
+              "DocumentMoniker": "E:\\NET\\ProductManager\\ProductManager.Application\\Dtos\\Products\\CreateProductRequestDto.cs",
+              "RelativeDocumentMoniker": "ProductManager.Application\\Dtos\\Products\\CreateProductRequestDto.cs",
+              "ToolTip": "E:\\NET\\ProductManager\\ProductManager.Application\\Dtos\\Products\\CreateProductRequestDto.cs",
+              "RelativeToolTip": "ProductManager.Application\\Dtos\\Products\\CreateProductRequestDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T09:12:12.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\NET\\ProductManager\\ProductManager.API\\Program.cs",
+              "RelativeDocumentMoniker": "ProductManager.API\\Program.cs",
+              "ToolTip": "E:\\NET\\ProductManager\\ProductManager.API\\Program.cs",
+              "RelativeToolTip": "ProductManager.API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:44:19.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\NET\\ProductManager\\ProductManager.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductManager.API\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\NET\\ProductManager\\ProductManager.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductManager.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T04:56:02.024Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

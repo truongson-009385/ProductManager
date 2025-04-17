@@ -1,0 +1,49 @@
+<form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+  <div class="card bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <div class="grid grid-cols-3 gap-4">
+      <div class="mb-4">
+        <label for="code" class="font-bold block mb-2"> Status </label>
+        <p-select [options]="statuses" optionLabel="name" placeholder="Select a City" class="w-full md:w-56" />
+      </div>
+      <div class="mb-4">
+        <label for="name" class="font-bold block mb-2"> Nam6e </label>
+        <input pInputText id="name" formControlName="name" class="w-full" />
+      </div>
+      <div class="mb-4">
+        <label for="price" class="font-bold block mb-2"> Price </label>
+        <p-inputnumber inputId="price" formControlName="price" class="w-full" />
+      </div>
+    </div>
+    <div class="grid grid-cols-3 gap-4">
+      <div class="mb-4">
+        <label for="description" class="font-bold block mb-2"> Description </label>
+        <textarea rows="5" cols="30" pTextarea id="description" formControlName="description" class="w-full"></textarea>
+      </div>
+      <div class="mb-4">
+        <label for="stock" class="font-bold block mb-2"> Stock </label>
+        <p-inputnumber inputId="stock" formControlName="stock" class="w-full" />
+      </div>
+      <div class="mb-4">
+        <label for="alphabetic" class="font-bold block mb-2"> Rating </label>
+        <p-rating />
+      </div>
+    </div>
+    <div class="grid grid-cols-3 gap-4">
+      <div class="mb-4">
+        <label for="alphabetic" class="font-bold block mb-2"> Image </label>
+        <p-fileupload name="images[]" url="" [multiple]="true" accept="image/*" maxFileSize="1000000" mode="advanced">
+          <ng-template #empty>
+            <div>Drag and drop files to here to upload.</div>
+          </ng-template>
+          <ng-template #content>
+            <ul *ngIf="uploadedFiles.length">
+              <li *ngFor="let file of uploadedFiles">{{ file.name }} - {{ file.size }} bytes</li>
+            </ul>
+          </ng-template>
+        </p-fileupload>
+      </div>
+    </div>
+    <button type="submit" pButton label="Submit" [disabled]="productForm.invalid"></button>
+
+  </div>
+</form>
